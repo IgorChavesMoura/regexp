@@ -1,0 +1,15 @@
+regex101.com
+^\d{3}.d{3}.d{3}-d{2}$
+
+123.123.123.123-14
+321.123.245.423.54
+555.557.773.442-71
+
+replace [.-] - vazio
+
+Moura, Igor
+Wendel, Erick
+Silva, Xuxa
+
+replace: ^(\w+),\s(\w+)$ with
+{ "firstName": "$2", "lastName": "$1" }
